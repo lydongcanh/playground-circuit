@@ -1,7 +1,9 @@
-function App() {
-  return (
-    <h3>Hello, Ted!</h3>
-  )
-}
+import CircuitBoard from "./CircuitBoard";
 
-export default App
+export default function App() {
+  return (
+    <div style={{ height: "100vh" }}>
+      <CircuitBoard />
+    </div>
+  );
+}
